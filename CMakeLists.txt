@@ -13,9 +13,10 @@ set(CMAKE_CXX_FLAGS_DEBUG "-O0 -Wall -g -ggdb")
 
 project(DEMO VERSION 0.1.0)
 
-# 可以使用make test
+# 使ctest可用，可以使用make test
 enable_testing()
 
 add_subdirectory(src)
 
+# 用于功能测试（系统测试）
 # add_subdirectory(tests)

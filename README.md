@@ -1,8 +1,8 @@
-用于演示cmake，gtest的使用
+用于演示cmake（编译构建）、ctest（功能测试）、gtest（单元测试）的使用
 
-代码相对规范：文件命名、头文件处理等
+注意编程规范：文件命名、头文件处理、断言等
 
-步骤：
+一、功能测试（系统测试）步骤：
 
 1、mkdir build
 
@@ -12,9 +12,20 @@
 
 4、make
 
-5、cd bin
+5、make test
 
-6、./demo_test
+同时支持debug
 
+二、单元测试步骤：
 
-或者：make test
+1、去注释CMakeLists.txt文件中的：# add_subdirectory(tests)
+
+2、mkdir build
+
+3、cd build
+
+4、cmake ..
+
+4、make
+
+5、执行测试：./tests/demo_test
