@@ -8,4 +8,4 @@ add_executable(demo_test test.cc main.cc)
 target_link_libraries(demo_test demo gtest_main)
 
 # 以下用于调用单元测试(gtest)
-# add_test(NAME demo_test COMMAND demo_test)
+add_test(NAME demo_test COMMAND demo_test)
