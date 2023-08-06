@@ -8,6 +8,11 @@
 1. 安装c/c++编译器、cmake、vscode
 2. vscode插件：C/C++、C++ Intellisense、CMake、、CMake tools、CMake Tools Helper、CodeLLDB
 
+## 三、clone项目的步骤及获取googletest
+1. git clone git@github.com:tzs919/demo.git
+2. git submodule init
+3. git submodule update
+
 ## 三、功能测试（系统测试）步骤
 1. `mkdir build`
 2. `cd build`

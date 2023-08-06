@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     int x = atoi(argv[1]);
     int y = atoi(argv[2]);
 
-    //演示断言assertion
+    // 演示断言assertion
     if (x <= 0 || y <= 0)
     {
         return 2;
