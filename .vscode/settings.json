@@ -3,7 +3,6 @@
         "assert.h": "c",
         "common.h": "c"
     },
-    "sonarlint.pathToCompileCommands": "${workspaceFolder}/build/compile_commands.json",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
